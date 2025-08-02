@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Primary Meta Tags -->
+    <title>Rohit.dev | Exploring the Digital Cosmos</title>
+    <meta name="title" content="Rohit.dev | Exploring the Digital Cosmos">
+    <meta name="description"
+        content="Explore Rohit.dev – a planet-themed journey through modern web development, projects, and insights from a Full Stack Developer with 5+ years of experience in the MERN stack.">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://rohitdev.tiiny.site/" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://rohitdev.tiiny.site/">
+    <meta property="og:title" content="Rohit.dev | Exploring the Digital Cosmos">
+    <meta property="og:description"
+        content="Explore a universe of web projects and tech insights crafted by Rohit, a Full Stack MERN Developer.">
+    <meta property="og:image" content="https://rohitdev.tiiny.site/images/favicon.ico">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://rohitdev.tiiny.site/">
+    <meta property="twitter:title" content="Rohit.dev | Exploring the Digital Cosmos">
+    <meta property="twitter:description"
+        content="Explore a universe of web projects and tech insights crafted by Rohit, a Full Stack MERN Developer.">
+    <meta property="twitter:image" content="https://rohitdev.tiiny.site/images/favicon.ico">
+
+    <!-- Favicon & Icons -->
+    <link rel="icon" href="favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="./images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon-16x16.png">
+    <link rel="manifest" href="./site.webmanifest">
+
+    <!-- Robots -->
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="Rohit Kumar">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Exo+2:wght@300;400;600&display=swap"
+        rel="stylesheet">
+    <link href="./style/style.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div></div>
+    <!-- Space Background -->
+    <div class="space-bg"></div>
+    <div class="stars" id="stars"></div>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <div class="logo">ROHIT.DEV</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="mobile-menu-toggle" id="mobileMenuToggle">
+                <div class="hamburger-line"></div>
+                <div class="hamburger-line"></div>
+                <div class="hamburger-line"></div>
+            </div>
+        </div>
+    </nav>
+    <!-- Mobile Navigation -->
+    <div class="mobile-nav" id="mobileNav">
+        <ul class="mobile-nav-links">
+            <li><a href="#home">🏠 Home</a></li>
+            <li><a href="#about">👨‍🚀 About</a></li>
+            <li><a href="#skills">🛠️ Skills</a></li>
+            <li><a href="#experience">🚀 Experience</a></li>
+            <li><a href="#contact">📡 Contact</a></li>
+        </ul>
+    </div>
+
+    <!-- Floating Skills -->
+    <div class="skills-container" id="skillsContainer"></div>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <!-- Solar System -->
+        <div class="solar-system">
+            <!-- Sun -->
+            <div class="sun"></div>
+
+            <!-- Mercury -->
+            <div class="orbit mercury-orbit">
+                <div class="planet mercury"></div>
+            </div>
+
+            <!-- Venus -->
+            <div class="orbit venus-orbit">
+                <div class="planet venus"></div>
+            </div>
+
+            <!-- Earth -->
+            <div class="orbit earth-orbit">
+                <div class="planet earth"></div>
+            </div>
+
+            <!-- Mars -->
+            <div class="orbit mars-orbit">
+                <div class="planet mars"></div>
+            </div>
+
+            <!-- Asteroid Belt -->
+            <div class="asteroid-belt">
+                <div class="asteroid"></div>
+                <div class="asteroid"></div>
+                <div class="asteroid"></div>
+                <div class="asteroid"></div>
+                <div class="asteroid"></div>
+                <div class="asteroid"></div>
+                <div class="asteroid"></div>
+                <div class="asteroid"></div>
+                <div class="asteroid"></div>
+                <div class="asteroid"></div>
+            </div>
+
+            <!-- Jupiter -->
+            <div class="orbit jupiter-orbit">
+                <div class="planet jupiter"></div>
+            </div>
+
+            <!-- Saturn -->
+            <div class="orbit saturn-orbit">
+                <div class="planet saturn"></div>
+            </div>
+
+            <!-- Uranus -->
+            <div class="orbit uranus-orbit">
+                <div class="planet uranus"></div>
+            </div>
+
+            <!-- Neptune -->
+            <div class="orbit neptune-orbit">
+                <div class="planet neptune"></div>
+            </div>
+        </div>
+
+        <div class="hero-content">
+            <h1>ROHIT KUMAR</h1>
+            <h2>SENIOR SOFTWARE ENGINEER</h2>
+            <p>MERN Stack Developer with 5 years of experience navigating the vast universe of code—exploring new
+                technologies and crafting stellar web applications across the digital cosmos</p>
+            <a href="#about" class="cta-button">Begin Mission</a>
+        </div>
+    </section>
+    <!-- About Section -->
+    <section id="about" class="section">
+        <h2>MISSION PROFILE</h2>
+        <div class="about-content">
+            <div class="about-image">
+                <div class="astronaut">
+                    <i class="fas fa-user-astronaut"></i>
+                </div>
+            </div>
+            <div class="about-text">
+                <p>Greetings, fellow code explorers! I'm a passionate Software Engineer with 5 years of experience
+                    navigating the infinite possibilities of technology. My journey through the digital cosmos has
+                    equipped me with expertise in both frontend and backend development.</p>
+
+                <p>From crafting responsive user interfaces that shine like distant stars to building robust server
+                    architectures that power entire solar systems of applications, I bring creativity and technical
+                    excellence to every project.</p>
+
+                <p>My mission is to explore new technologies, solve complex problems, and create applications that make
+                    a difference in the universe of software development.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <h2>TECHNOLOGY ARSENAL</h2>
+        <div class="skills-grid">
+            <!-- Existing Skills -->
+            <div class="skill-card">
+                <i class="fab fa-html5"></i>
+                <h3>HTML5</h3>
+                <p>Structural foundation of the web universe</p>
+            </div>
+            <div class="skill-card">
+                <i class="fab fa-css3-alt"></i>
+                <h3>CSS3</h3>
+                <p>Styling the cosmos with beautiful designs</p>
+            </div>
+            <div class="skill-card">
+                <i class="fab fa-bootstrap"></i>
+                <h3>Bootstrap</h3>
+                <p>Rapid prototyping across devices</p>
+            </div>
+            <div class="skill-card">
+                <i class="fab fa-js-square"></i>
+                <h3>JavaScript</h3>
+                <p>Bringing interactivity to digital worlds</p>
+            </div>
+            <div class="skill-card">
+                <i class="fas fa-code"></i>
+                <h3>TypeScript</h3>
+                <p>Typed superset of JavaScript for scalable apps</p>
+            </div>
+            <div class="skill-card">
+                <i class="fab fa-react"></i>
+                <h3>React.js</h3>
+                <p>Component-based UI development</p>
+            </div>
+            <div class="skill-card">
+                <i class="fas fa-forward"></i>
+                <h3>Next.js</h3>
+                <p>React framework for SSR and static sites</p>
+            </div>
+            <div class="skill-card">
+                <i class="fas fa-sync-alt"></i>
+                <h3>Redux</h3>
+                <p>State management for predictable behavior</p>
+            </div>
+            <div class="skill-card">
+                <i class="fab fa-node-js"></i>
+                <h3>Node.js</h3>
+                <p>Server-side exploration with JavaScript</p>
+            </div>
+            <div class="skill-card">
+                <i class="fas fa-server"></i>
+                <h3>Express.js</h3>
+                <p>Fast, minimalist web framework</p>
+            </div>
+            <div class="skill-card">
+                <i class="fas fa-database"></i>
+                <h3>MySQL</h3>
+                <p>Relational database management</p>
+            </div>
+            <div class="skill-card">
+                <i class="fas fa-leaf"></i>
+                <h3>MongoDB</h3>
+                <p>NoSQL document-oriented database</p>
+            </div>
+            <div class="skill-card">
+                <i class="fas fa-plug"></i>
+                <h3>Socket.IO</h3>
+                <p>Real-time bidirectional communication</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section">
+        <h2>MISSION HISTORY</h2>
+        <div class="timeline-container">
+            <div class="timeline-line"></div>
+
+            <div class="timeline-item">
+                <div class="timeline-date">2023 - Present</div>
+                <div class="timeline-icon">
+                    <i class="fas fa-rocket"></i>
+                </div>
+                <div class="timeline-content">
+                    <h3 class="experience-title">Senior Software Engineer</h3>
+                    <div class="experience-company">LTIMindtree</div>
+                    <div class="experience-duration">2+ Years</div>
+                    <div class="experience-description">
+                        <ul>
+                            <li>
+                                Led the development of scalable, high-performance web applications using Node.js, React,
+                                and Next.js, enhancing system reliability and user experience.
+                            </li>
+                            <li>
+                                Designed and implemented microservices architecture, achieving a 40% improvement in
+                                overall system performance.
+                            </li>
+                            <li>
+                                Integrated Redux Toolkit for efficient state management across complex applications.
+                            </li>
+                            <li>
+                                Wrote unit and integration tests using Jest and React Testing Library, ensuring robust
+                                and maintainable code with high test coverage.
+                            </li>
+                            <li>
+                                Mentored junior developers, conducted code reviews, and established best practices for
+                                clean code and streamlined deployment.
+                            </li>
+                            <li>Collaborated with cross-functional teams to deliver features aligned with business
+                                goals, ensuring timely and high-quality releases.</li>
+                        </ul>
+                    </div>
+                    <div class="experience-skills">
+                        <span class="skill-tag">Node.js</span>
+                        <span class="skill-tag">Express.js</span>
+                        <span class="skill-tag">TypeScript</span>
+                        <span class="skill-tag">React</span>
+                        <span class="skill-tag">Next.js</span>
+                        <span class="skill-tag">Redux Toolkit</span>
+                        <span class="skill-tag">Jest</span>
+                        <span class="skill-tag">React Testing Library</span>
+                        <span class="skill-tag">MySQL</span>
+                        <span class="skill-tag">MongoDB</span>
+                        <span class="skill-tag">AWS & Azure</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-date">2022 - 2023</div>
+                <div class="timeline-icon">
+                    <i class="fas fa-code"></i>
+                </div>
+                <div class="timeline-content">
+                    <h3 class="experience-title">Full Stack Developer</h3>
+                    <div class="experience-company">NeoSoft</div>
+                    <div class="experience-duration">10 months</div>
+                    <div class="experience-description">
+                        <ul>
+                            <li>Developed responsive and user-friendly web applications using HTML5, CSS3, JavaScript,
+                                and Bootstrap.</li>
+                            <li>Built and maintained RESTful APIs using Express.js, ensuring efficient backend
+                                functionality and integration.</li>
+                            <li>Managed and optimized databases using MySQL and MongoDB to support dynamic application
+                                data needs.</li>
+                            <li>Collaborated with designers, QA, and other developers to deliver high-quality,
+                                maintainable software solutions on schedule.</li>
+                        </ul>
+                    </div>
+                    <div class="experience-skills">
+                        <span class="skill-tag">HTML5</span>
+                        <span class="skill-tag">CSS3</span>
+                        <span class="skill-tag">Bootstrap</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">Node.js</span>
+                        <span class="skill-tag">Express.js</span>
+                        <span class="skill-tag">MySQL</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-date">2020 - 2022</div>
+                <div class="timeline-icon">
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="timeline-content">
+                    <h3 class="experience-title">Full Stack developer</h3>
+                    <div class="experience-company">Kusumit</div>
+                    <div class="experience-duration">2+ Year</div>
+                    <div class="experience-description">
+                        <ul>
+                            <li>Began professional journey by learning and applying core programming concepts through
+                                real-world web development projects.</li>
+                            <li>Contributed to end-to-end development of responsive web applications using HTML, CSS,
+                                JavaScript, and Tailwind CSS.</li>
+                            <li>Developed dynamic frontends with React and Redux, and implemented robust backend
+                                services with Node.js and Express.js.</li>
+                            <li>Integrated Socket.io for real-time features and ensured smooth collaboration using Git,
+                                GitHub, and Agile methodologies.</li>
+                            <li>Worked in cross-functional teams to deliver projects aligned with client requirements
+                                and modern development standards.</li>
+                        </ul>
+                    </div>
+                    <div class="experience-skills">
+                        <span class="skill-tag">HTML</span>
+                        <span class="skill-tag">CSS</span>
+                        <span class="skill-tag">Tailwind CSS</span>
+                        <span class="skill-tag">React</span>
+                        <span class="skill-tag">Redux</span>
+                        <span class="skill-tag">Node.js</span>
+                        <span class="skill-tag">Express.js</span>
+                        <span class="skill-tag">Socket.io</span>
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">GitHub</span>
+                        <span class="skill-tag">Agile</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <h2>INITIATE CONTACT</h2>
+        <div class="contact-content">
+            <p>Ready to embark on a new mission together? Let's connect and explore the possibilities of collaboration
+                in the vast universe of technology.</p>
+
+            <div class="contact-links">
+                <a href="mailto:smartkumarrohit@gmail.com" class="contact-link">
+                    <i class="fas fa-envelope"></i>
+                    <span>Email</span>
+                </a>
+                <a href="https://linkedin.com/in/smartkrohit" class="contact-link">
+                    <i class="fab fa-linkedin"></i>
+                    <span>LinkedIn</span>
+                </a>
+                <a href="https://github.com/smartkrohit" class="contact-link">
+                    <i class="fab fa-github"></i>
+                    <span>GitHub</span>
+                </a>
+            </div>
+        </div>
+        <div class="footer-center-text footer-text-margin">
+            <img src="./images/logo.png" class="rotate-logo" alt="website logo" width="300px" height="300px" />
+            <p>&copy; 2025 <a href="https://rohitdev.tiiny.site/" class="footer-text-color">Rohit.dev</a>. Built with love
+                in the tech universe. All
+                rights reserved.</p>
+        </div>
+    </section>
+    <script src="./js/script.js"></script>
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Person",
+            "name": "Rohit Kumar",
+            "url": "https://rohit.dev",
+            "image": "https://rohitdev.tiiny.site/images/favicon.ico",
+            "sameAs": [
+                "https://github.com/yourprofile",
+                "https://linkedin.com/in/yourprofile"
+            ],
+            "jobTitle": "Full Stack Developer",
+            "worksFor": {
+                "@type": "Organization",
+                "name": "LTIMindtree"
+            },
+            "alumniOf": {
+                "@type": "CollegeOrUniversity",
+                "name": "Gyan Ganga College of Technology"
+            },
+            "knowsAbout": ["React", "Next.js", "Node.js", "MongoDB", "Web Development"],
+            "description": "A full stack MERN developer crafting stellar applications across the digital cosmos."
+        }
+    </script>
+</body>
+
+</html>

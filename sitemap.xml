@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset 
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Home Page -->
+  <url>
+    <loc>https://therohitdev.rf.gd/</loc>
+    <lastmod>2025-08-02</lastmod>
+    <priority>1.00</priority>
+  </url>
+
+  <!-- Custom 404 Page (optional for sitemap) -->
+  <url>
+    <loc>https://therohitdev.rf.gd/404.html</loc>
+    <lastmod>2025-08-02</lastmod>
+    <priority>0.10</priority>
+  </url>
+
+</urlset>
